@@ -15,5 +15,4 @@ plt.ylabel('Valor')
 plt.title('Comparação entre log(n) e n^3')
 
 plt.legend()
-
-plt.show()
+plt.savefig("Caso 1.jpg", dpi=600)

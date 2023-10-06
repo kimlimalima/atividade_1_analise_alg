@@ -16,4 +16,4 @@ plt.title('Comparação entre n^2log(n) e n^2')
 
 plt.legend()
 
-plt.show()
+plt.savefig("Caso 2.jpg", dpi=600)
