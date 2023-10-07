@@ -1,0 +1,7 @@
+Realizando a análise partir da tabela de comparação, é possível vale destaque para:
+
+O algoritmo maxmin1 tem o pior desempenho tanto no pior quanto no melhor caso, este por sua vez através da análise feita se propôs como o algoritmo com menor desempenho.
+O maxmin1 obteve tanto no melhor quanto no pior caso um número de 2(n-1) comparações.
+
+Os algoritmo que se provaram com melhor desempenho tanto no melhor quanto no pior caso, foram os algoritmos maxmin3 e maxmin4.
+Ambos obtiveram os valores de (3n/2)-2 comparações.
