@@ -1,1 +1,32 @@
-Realizando uma análise visual dos gráficos das funções
+a)
+
+g(n) é O(h(n)) = Verdadeiro
+g(n)=O(log n) = Falso
+
+Realizando uma análise visual dos gráficos das funções é possível constatar que g(n) tem um melhor desempenho em relação a h(n) o que torna a primeira afirmação correta.
+A segunda afirmação onde g(n)=O(log(n)), foi constatado que g(n) possui um desempenho inferior O(log n), a partir disso é possível determinar que a afirmação está errada.
+
+
+b)
+
+afirmação:
+
+Se f(n)=3n**3 + 20n**2 + 5 , g(n)=3 log n + 5 , h(n)=n**2
+Então f(n) é O(n3), g(n) é O(log n), h(n) é O(n)
+
+f(n) = Verdadeiro
+g(n) = Verdadeiro
+h(n) = Falso
+
+Baseado na ideia de que o termo dominante ( que gera um grande impacto no comportamento da função ) podemos análisar de maneira grosseira, porém com um nível de corretude aceitável que:
+
+Primeiro caso: A afirmação de f(n) está correta, já que o termo dominando n**3 irá gerar um grande impacto no comportamento da função, logo é correto afirmar que f(n)=O(n**3)
+Segundo caso: A afirmação de g(n) também está correta pelo mesmo raciocínio utilizado para argumentar a afirmação do primeiro caso.
+Terceiro caso: A afirmação de h(n) utilizando do mesmo artifício demonstrado para solução do primeiro e do segundo caso, é incorreto afirmar que h(n)=O(n), já que o termo dominante contido na função é n**2 o que torna improvável que h(n)=O(n).
+
+c)
+
+afirmação:
+h(n) = n**(1/2) = omega(log n) = Falso
+
+Baseado na análise gráfica a função h(n) tem um comportamento mais acelerado do que omega(log n), o que torna a afirmação falsa.
